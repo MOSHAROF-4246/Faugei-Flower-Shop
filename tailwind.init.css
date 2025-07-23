@@ -1,0 +1,30 @@
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import "tailwindcss"
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer utilities {
+    .font-noto {
+        font-family: "Noto Serif", serif;
+    }
+
+    .font-inter {
+        font-family: "Inter", sans-serif;
+    }
+
+    .accent-color {
+        color: #E95A08;
+    }
+
+    .text-description {
+        color: rgba(0, 0, 0, 0.5);
+    }
+}

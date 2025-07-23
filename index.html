@@ -13,15 +13,16 @@
     <!-- fontsawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- tailwind css -->
+    <!-- tailwind link -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <!-- custom css -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tailwind.init.css">
 </head>
 <body class="bg-[#F5F8FF]">
     <header>
-        <div class="max-w-7xl flex items-center justify-between px-5 pt-[30px] mx-auto">
+        <!-- navbar start -->
+        <div class="max-w-7xl flex items-center justify-between px-5 pt-[30px] mx-auto font-inter">
             <div>
                 <img class="w-full" src="./assets/logo.png" alt="">
             </div>
@@ -34,6 +35,19 @@
                 </ul>
             </div>
         </div>
+        <!-- navbar end -->
+
+        <!-- banner start -->
+         <section class="max-w-7xl mx-auto my-[18px] px-5 flex flex-col-reverse gap-7 md:my-[120px] md:flex md:items-end md:flex-row">
+            <div class="md:w-1/2">
+                <h1 class="font-noto text-[1.5rem] mb-4 md:text-5xl">ALWAYS <span class="accent-color">FRESH <br>FLOWERS</span> </h1>
+                <P class="text-sm text-description md:text-xl">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </P>
+            </div>
+            <div >
+                <img class="w-full" src="./assets/hero-flower.png" alt="">
+            </div>
+         </section>
+        <!-- banner end -->
     </header>
 
     <main>
