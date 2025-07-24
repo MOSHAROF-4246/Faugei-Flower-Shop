@@ -24,7 +24,12 @@
         color: #E95A08;
     }
 
+    .primary-color {
+        color: #000000;
+    }
+
     .text-description {
         color: rgba(0, 0, 0, 0.5);
+        font-family: "Inter", sans-serif;
     }
 }
